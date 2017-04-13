@@ -1,0 +1,64 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="@drawable/bglogin"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/abc"
+            android:layout_weight="0.04" >
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_marginTop="35dp"
+                android:background="#666633"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton" />
+            
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_marginTop="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#527a7a"
+                android:text="RadioButton" />
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_marginTop="35dp"
+                android:background="#666633"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton" />
+            
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/i"
+            android:text="@string/str_next"
+            android:textColor="#ff0000"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+</RelativeLayout>
